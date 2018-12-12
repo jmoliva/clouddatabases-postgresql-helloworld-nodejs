@@ -59,7 +59,7 @@ clouddatabases-postgresql-helloworld-nodejs is a sample IBM Cloud application wh
 9. Update the `manifest.yml` file.
 
    - Change the `name` value. The value you choose will be the name of the app as it appears in your IBM Cloud dashboard.
-   - Change the `route` value to something unique. This will make be the base URL of your application. It should end with `.mybluemix.net`. For example `example-helloworld-nodejs.mybluemix.net`.
+   - Change the `route` value to something unique. This will make be the base URL of your application. It should end with your selected IBM Cloud region url (ex in Frankort here) `.eu-de.mybluemix.net`. For example `example-helloworld-nodejs.eu-de.mybluemix.net`.
 
    Update the `service` value in `manifest.yml` to match the name of your database service instance name.
 
